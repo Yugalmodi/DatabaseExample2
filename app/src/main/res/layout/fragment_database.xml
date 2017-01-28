@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techpalle.databaseexample2.DatabaseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Add Employee"
+                    android:id="@+id/emp"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Add Department"
+                    android:id="@+id/dep"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:text="Employee Table" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Table"
+                android:id="@+id/text_emp_table"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30sp"
+                android:text="Department Details" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department Name"
+                android:id="@+id/text_dep_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="IInd Floor Employee"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Name"
+                android:id="@+id/text_2_floor_emp_name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Floor Name of Gyanesh"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee salary"
+                android:id="@+id/text_gyanesh_floor"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Employees Highest Salary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee "
+                android:id="@+id/text_emp_high_sal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Employees, Salary>2000 and id>2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee "
+                android:id="@+id/text_emp_sal_ID"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Employees Name Only"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee "
+                android:id="@+id/text_emp_name_only"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Details of Lokesh And Nitesh"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee "
+                android:id="@+id/text_emp_lokesh_nitesh"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#F00"
+                android:layout_marginTop="30dp"
+                android:text="Double the salary of all employees"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee "
+                android:id="@+id/text_emp_sal_double"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
